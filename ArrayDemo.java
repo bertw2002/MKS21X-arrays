@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 public class ArrayDemo{
   public static void printArray(int[]ary){
     String var = "";
@@ -25,3 +26,6 @@ public class ArrayDemo{
     return var;
   }
 }
+=======
+
+>>>>>>> a778c2df8a3cd0adbc53c3b6b9992b8d68526601
