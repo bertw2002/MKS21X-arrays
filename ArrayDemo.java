@@ -1,26 +1,27 @@
   public class ArrayDemo{
 
 //0a
-    public static void printArray(int[][]ary){
-      int counter = 0;
-      for (int x = 0; x < ary.length; x++){
-        for (int y = 0; y < ary[x].length; y++){
-            System.out.print(ary[x][y] + " ");
-        }
-        System.out.println();
+  public static void printArray(int[]ary){
+    for (int x = 0; x < ary.length; x ++){
+      if (x != ary.length - 1){
+        System.out.print(ary[x] + ", ");
+      }else{
+        System.out.print(ary[x]);
       }
     }
+  }
+
 
 //0b
-    public static void printArray(int[]ary){
-      for (int x = 0; x < ary.length; x ++){
-        if (x != ary.length - 1){
-          System.out.print(ary[x] + ", ");
-        }else{
-          System.out.print(ary[x]);
-        }
+  public static void printArray(int[][]ary){
+    int counter = 0;
+    for (int x = 0; x < ary.length; x++){
+      for (int y = 0; y < ary[x].length; y++){
+          System.out.print(ary[x][y] + " ");
       }
+      System.out.println();
     }
+  }
 
 //1
     public static int countZeros2D(int[][] nums){
